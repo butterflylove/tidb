@@ -24,7 +24,7 @@ import (
 )
 
 const (
-	maxConnection     = 200
+	maxConnection     = 500
 	dialTimeout       = 5 * time.Second
 	readTimeoutShort  = 20 * time.Second  // For requests that read/write several key-values.
 	readTimeoutMedium = 60 * time.Second  // For requests that may need scan region.
